@@ -1,0 +1,34 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://localhost:8080/SushmaBookstoreReactTransact/api/categories
+Accept: application/json
+
+###
+
+POST http://localhost:8080/SushmaBookstoreReactTransact/api/orders
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: Idea-7dc981aa=0357570d-b1ad-42d7-86e6-ff92ec29d89c
+DNT: 1
+Origin: http://localhost:8080
+Pragma: no-cache
+Referer: http://localhost:8080/DrABookstoreFinal/client
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{"customerForm":{"name":"sushma","address":"siush","phone":"9898736774","email":"sushma@gmail.com","ccNumber":"4111111111111111","ccExpiryMonth":2,"ccExpiryYear":2026},"cart":{"itemArray":[{"id":1017,"book":{"bookId":1017,"isPublic":true,"price":1299,"title":"Outlander","author":"Diana Gabaldon","categoryId":1004},"quantity":1},{"id":1018,"book":{"bookId":1018,"isPublic":true,"price":999,"title":"The Notebook","author":"Nicholas Sparks","categoryId":1004},"quantity":2}]}}
+###

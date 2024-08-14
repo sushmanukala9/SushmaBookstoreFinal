@@ -1,0 +1,71 @@
+
+.confirmationView {
+    background-color: rgba(195, 197, 206, 0.32);
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em auto;
+}
+.ulclass {
+    font-family: 'Domine', cursive;
+    text-align: left;
+}
+.ulclass > .liclass {
+    margin: 1em;
+} {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1em auto;
+}
+.ulclass {
+    text-align: left;
+}
+.ulclass > .liclass {
+    margin: 1em;
+}
+.confirmation_table {
+    font-family: 'Domine', cursive;
+    background-color: rgba(79, 203, 242, 0.32);
+    border: 1px black solid;
+    width: fit-content;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.confirmation_td {
+    display: table-cell;
+    padding: 0.5em 0.5em;
+    background-color: #eecfdf;
+    vertical-align: middle;
+}
+
+.confirmation_tr:nth-child(even) > td {
+    background-color: #e1dcdc;
+}
+
+.confirmation_td:nth-child(1) {
+    text-align: left;
+}
+
+.confirmation_td:nth-child(2) {
+    text-align: center;
+}
+
+.confirmation_td:nth-child(3) {
+    text-align: right;
+}
+
+.checkout-text {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom:20px;
+}
+.checkout-view {
+
+    dsiplay: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}

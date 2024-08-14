@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+
+.Category-page{
+    display: flex;
+}
+.Category-bar ul {
+    list-style-type: none;
+    width: 10rem;
+    font-family: 'Domine',cursive;
+    font-weight: lighter;
+
+  }
+
+
+.Category-bar li{
+    border: 0.08rem solid #555;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #E2E2E2;
+    margin-left: -2.4rem;
+    margin-top: 0.85rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+  
+.Category-bar {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+  }
+
+
+
+
+
+.selectedCat{
+    .selected{
+        border: 0.1rem solid #000;
+        padding: 1rem 3rem 1rem 3rem;
+        text-decoration: none;
+        background-color: #000000;
+        color: white;
+    }
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+}
+.unselectedCat{
+    .unselected{
+
+        text-decoration: none;
+        color: black;
+    }
+    text-decoration: none;
+    color: black;
+}
+.unselectedCat:hover{
+    .unselected:hover{
+        padding: 1rem 3rem 1rem 3rem;
+        background-color: #000;
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+
+
+
+.Book-boxes{
+    display: flex;
+    flex-direction: row;
+
+
+
+
+
+}
+
+.Book-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+.Book-box{
+    border: 0.1rem solid #000;
+    padding: 1.2rem ;
+    margin: 0.3rem 1rem 0.2rem 2rem;
+}
+
+.Book-box .btn {
+    position: absolute;
+    background: rgba(15, 154, 220, 0.9);
+    color: white;
+    font-size: 1rem;
+    padding: 0.2rem 1.65rem;
+    border: none;
+    cursor: pointer;
+    margin-left: -8.05rem;
+    margin-top: 8.4rem;
+  }
+.Book-box .btn:hover {
+   transform: scale(1.3);
+}
+
+p{
+margin: 0.1rem 0.5rem 0.1rem 0.1rem;
+}
+
+p.book-name{
+    font-family: 'Domine', cursive;
+    font-weight:600;
+    font-size: 0.715rem;
+}
+
+p.author-name{
+    margin-top: 0.2rem;
+    font-family: 'Domine', cursive;
+    font-style: italic;
+    font-weight:5;
+    font-size: 0.73rem;
+}
+
+.add_to_cart_button {
+    cursor: pointer;
+    background-color:#D72646;
+    border: 0.1rem solid #000; 
+    font-family: 'Domine', cursive;
+    font-weight:lighter;
+    font-size: smaller;
+    border-radius: 0.2rem;
+    color: #FEFEFE;
+    font-stretch: ultra-expanded;
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+}
+.add_to_cart_button:hover{
+    background-color: rgba(234, 90, 176, 0.9);/* Define the border property once */
+    transform:scale(1.2);
+}

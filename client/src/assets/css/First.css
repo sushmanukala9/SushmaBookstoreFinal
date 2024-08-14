@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+
+
+html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    margin: 0 auto;
+    max-width: 100rem;
+    max-height: 150rem;
+    display: flex;
+    flex-direction: column;
+
+}
+/*
+.container
+{
+    padding: 0rem;
+}
+*/
+.title-logo-bar{
+    display:flex;
+    background-image: url("../images/logo_background.png");
+    background-size: cover;
+    background-position: center;
+    height: 5rem;
+
+
+}
+
+.title {
+    font-family: 'Trade Winds', cursive;
+    font-size: 1.2rem;
+    color: #FEFEFE;
+    text-decoration: none;
+    margin-top:0.5rem;
+
+}
+
+.title-text{
+    font-weight:lighter;
+}
+
+.logo {
+    margin-left:40rem;
+    margin-top:0.5rem;
+    width: 5rem;
+    height: 4rem;
+}
+
+.nav-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: #E2E2E2;
+    padding: 0.8rem;
+    height: 1.7rem;
+}
+
+.search-bar{
+    margin-left: 10rem;
+}
+
+.search-box{
+    margin-top:-0.2rem;
+    padding-left: 1rem;
+    padding-top: -1rem;
+    padding-bottom: -1rem;
+    padding-right: 1rem;
+    height:2rem;
+    width:25rem;
+    border-radius: 0.9rem;
+    border:none;
+}
+
+.search-form{
+    display: flex;
+}
+
+
+.search-button {
+    background-color:#D72646;
+    border: 0.1rem solid #EA5AB0; /* Define the border property once */
+    border-radius: 0.8rem;
+    cursor: pointer;
+    width:1.2rem;
+    padding:0.3rem;
+    margin-left:-2.3rem;
+    margin-top: -0.1rem;
+    margin-bottom: 0.1rem;
+}
+.search-button:hover, .shop_button:hover ,.login_button:hover{
+    background-color: #EA5AB0; /* Define the border property once */
+
+}
+.home_button:hover,.cart_button:hover,.logo:hover,.title-text:hover,.footer-logo:hover,.Facebook:hover,.Instagram:hover,.Twitter:hover,.YouTube:hover,.shop_button:hover{
+    transform:scale(1.2);
+}
+.home_button {
+    cursor: pointer;
+    font-family: 'Domine', cursive;
+    font-weight:bold;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    font-size: medium;
+    border: none;
+    background-color: #E2E2E2;
+}
+
+.Categories_button {
+    cursor: pointer;
+    font-family: 'Domine', cursive;
+    font-weight:bold;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    font-size: medium;
+    border: none;
+    background-color: #E2E2E2;
+}
+
+.Categories {
+    position: relative;
+
+}
+.each-category{
+    text-decoration: none;
+    color: black;
+    padding: 0.1rem 0.2rem; /* Define the border property once */
+
+}
+.each-category:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.dropdown-options {
+    width: 5rem;
+    display: none;
+    cursor: pointer;
+    font-family: 'Domine', cursive;
+    font-weight:lighter;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.1rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    background-color: #E2E2E2;
+    list-style:none;
+
+
+}
+
+.Categories:hover .dropdown-options {
+    display: block;
+
+}
+
+.login_button {
+    margin-top:-0.35rem;
+    cursor: pointer;
+    background-color:#D72646;
+    border: 0.1rem solid #EA5AB0;
+    font-family: 'Domine', cursive;
+    font-weight:lighter;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    font-size: medium;
+    border-radius: 0.5rem;
+    color: #FEFEFE;
+    font-stretch: ultra-expanded;
+}
+
+.cart_buttons{
+    display:flex;
+    justify-content: center;
+
+}
+
+.Home {
+    margin-top:-0.2rem;
+}
+
+.Categories {
+    margin-top:-0.2rem;
+}
+
+
+.cart_button {
+    background-color:transparent;
+    border: none; /* Define the border property once */
+    cursor: pointer;
+    width:3em;
+    height: 2rem;
+    margin-top: -20rem;
+}
+
+footer{
+    background-image: url('../images/footer_background.png');
+    margin-top: auto;
+    display:flex;
+    flex-direction:row;
+    height: 4rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.footer-logo{
+    width: 4rem;
+    height: 3.2rem;
+    padding: 0.5rem 1.5rem 0 1.5rem;
+
+}
+
+.links{
+    color:#E2E2E2;
+    list-style: none;
+
+}
+
+.copyright{
+    padding-top: 0.7rem;
+    color:#E2E2E2;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.Facebook{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.Instagram{
+    margin-top:0.4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.Twitter{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.YouTube{
+    margin-top:0.3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.Welcome-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Welcome-message{
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+}
+
+.shop_button{
+    cursor: pointer;
+    background-color:#D72646;
+    border: 0.2rem solid #000000;
+    font-family: 'Domine', cursive;
+    font-weight:lighter;
+    padding: 1.3rem 3rem;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    color: #FEFEFE;
+    font-stretch: ultra-expanded;
+}
+
+
+h2{
+    font-family: 'Domine', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+h3{
+    font-family: 'Domine', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.line {
+    border-bottom: 0.05rem solid #000000;
+    margin-right: 8rem;
+}
+h4{
+    font-family: 'Domine', cursive;
+    font-weight: lighter;
+    margin-right: 17rem;
+    text-align: left;
+    font-size: smaller;
+}
+
+h5{
+    font-family: 'Domine', cursive;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.links a{
+    font-family: 'Trade Winds', cursive;
+    font-size: small;
+    margin-top: auto;
+    text-decoration: none;
+    color: #E2E2E2;
+}
+
+.hero-image{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.badge{
+    color: white;
+    background-color:rgba(15, 154, 220, 0.9);
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    border-radius: 0.7rem;
+    margin-left: 1.5rem;
+
+}
+
+.cart{
+    margin-top: -1rem;
+}
+
+
+      
+
+
+

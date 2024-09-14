@@ -12,8 +12,8 @@ html{
 }
 body{
     margin: 0 auto;
-    max-width: 100rem;
-    max-height: 150rem;
+    max-width: 87rem;
+    max-height: 10rem;
     display: flex;
     flex-direction: column;
 
@@ -203,15 +203,15 @@ body{
     cursor: pointer;
     width:3em;
     height: 2rem;
-    margin-top: -20rem;
+    margin-top: 0.5rem;
 }
 
 footer{
     background-image: url('../images/footer_background.png');
-    margin-top: auto;
     display:flex;
     flex-direction:row;
     height: 4rem;
+    margin-top: -2.2rem;
     padding-bottom: 0.5rem;
 
 }
@@ -274,7 +274,7 @@ footer{
 
 .Welcome-message{
     margin-left: 2.5rem;
-    margin-top: 3rem;
+
 }
 
 .shop_button{
@@ -284,7 +284,7 @@ footer{
     font-family: 'Domine', cursive;
     font-weight:lighter;
     padding: 1.3rem 3rem;
-    font-size: x-large;
+    font-size: large;
     border-radius: 0.5rem;
     color: #FEFEFE;
     font-stretch: ultra-expanded;
@@ -303,7 +303,7 @@ h3{
 }
 .line {
     border-bottom: 0.05rem solid #000000;
-    margin-right: 8rem;
+
 }
 h4{
     font-family: 'Domine', cursive;
@@ -328,8 +328,6 @@ h5{
 }
 
 .hero-image{
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
 }
 
 .badge{
